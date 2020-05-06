@@ -43,8 +43,7 @@
         <div class="row">
           <div class="col-md-6">
             <p class="mb-0">
-              <span class="mr-3"><strong class="text-white">Phone:</strong> <a href="tel://#"> fillerfornow</a></span>
-              <span><strong class="text-white">Email:</strong> <a href="#">fillerfornow</a></span>
+
             </p>
           </div>
           <div class="col-md-6">
@@ -131,20 +130,99 @@
                   <p><strong>Context:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<br>
+<br>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:20px;
+  float:left;
+  width:33%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:33%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:33%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
 </head>
 <body>
-    <div class="media">
-    <div class="media-body">
-      <h4 class="media-heading">Right-aligned</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="media-right">
-      <img src="images/Beaver.jpg" class="media-object" style="width:100px">
-    </div>
-  </div>
+
+<h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div class="left">
+  <p>Left Menu</p>
 </div>
 
-</body>
-</html>
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+
+ </style>
+</head>
+<body>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <style>
+.container {
+  position: relative;
+  color: black;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+<div></div>
+<div class="container">
+  <img src="images/Beaver.jpg" alt="Snow" style="width:100%;">
+  <div class="centered"><h3>Spotify</h3>
+      </div>
+</div>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+
+

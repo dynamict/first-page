@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img.ex1, object{
+	max-height:90%;
+	max-width:90%;
+}
+
+

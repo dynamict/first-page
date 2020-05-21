@@ -7,3 +7,12 @@ img.ex1, object{
 }
 
 
+img.ex2, object{
+	max-height:60%;
+	max-width:60%;
+}
+
+img.ex3, object{
+	max-height:40%;
+	max-width:40%;
+}

@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-medium1:before {
+  content: "\e900";
+}
 .icon-asterisk:before {
   content: "\f069";
 }

@@ -24,8 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-medium:before {
-  content: "\e900";
+
 }
 .icon-asterisk:before {
   content: "\f069";
@@ -1818,9 +1817,7 @@
 .icon-subway:before {
   content: "\f239";
 }
-.icon-medium:before {
-  content: "\f23a";
-}
+
 .icon-y-combinator:before {
   content: "\f23b";
 }
